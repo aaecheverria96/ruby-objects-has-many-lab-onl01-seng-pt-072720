@@ -30,10 +30,10 @@ end
 def author_name
   author.name
 end
-if author.name == false 
-  nil 
-end 
-end 
+if author.name == false
+  nil
+end
+end
 
 
 end
