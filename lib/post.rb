@@ -9,8 +9,8 @@ class Post
   end
 
 def author=(author)
-  @author = author
-  author.posts << self
+@author = author 
+ author.posts << self
 end
 
 end
