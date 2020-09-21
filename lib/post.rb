@@ -11,7 +11,7 @@ class Post
   def initialize(title)
   @title = title
   @@count += 1
-  @@all << self 
+  @@all << self
   end
 
 def author=(author)
