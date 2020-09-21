@@ -17,4 +17,8 @@ def author=(author)
  author.posts << self
 end
 
+def self.count
+  @@count
+end
+
 end
