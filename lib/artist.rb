@@ -22,8 +22,5 @@ def self.song_count
   Song.count
 end
 
-def artist_name
-  artist.name
-end
 
 end
