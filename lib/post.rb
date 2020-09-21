@@ -27,5 +27,8 @@ def self.all
   @@all
 end
 
+def author_name
+  Author.name
+end
 
 end
