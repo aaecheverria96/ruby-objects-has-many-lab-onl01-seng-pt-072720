@@ -4,6 +4,7 @@ class Post
 
   attr_accessor :author, :title, :post
 
+@@all = []
 
 @@count = 0
 
