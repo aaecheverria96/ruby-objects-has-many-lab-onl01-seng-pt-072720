@@ -2,13 +2,13 @@ require 'pry'
 class Song
   attr_accessor :artist, :song, :name
 
-@@count = 0 
+@@count = 0
 @@all = []
 
   def initialize(name)
     @name = name
-    @@count += 1 
-    @@all << self 
+    @@count += 1
+    @@all << self
   end
 
   def artist=(artist)
@@ -18,11 +18,11 @@ class Song
 
 def self.count
   @@count
-end 
+end
 
-def self.@@all 
-@@all 
-end 
+def self.@@all
+@@all
+end
 
 
 end
