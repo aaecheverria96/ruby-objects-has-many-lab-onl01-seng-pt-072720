@@ -28,11 +28,7 @@ def self.all
 end
 
 def author_name
-   if author.name == true
-     return author.name
-   else
-     nil
-   end
+  author.name
 end
 
 
