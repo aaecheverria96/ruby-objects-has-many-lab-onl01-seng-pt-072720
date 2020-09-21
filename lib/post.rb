@@ -9,7 +9,6 @@ class Post
   def initialize(title)
   @title = title
   @@count += 1
-  @@all
   end
 
 def author=(author)
