@@ -28,11 +28,11 @@ def self.all
 end
 
 def author_name
-   if @author.name == true 
-     @author.name 
-   else 
-     nil 
-   end 
+   if @author.name == true
+     @author.name
+   else
+     nil
+   end
 end
 
 
