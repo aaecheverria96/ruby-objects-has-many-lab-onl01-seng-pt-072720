@@ -23,7 +23,7 @@ def self.count
   @@count
 end
 
-def @@all.self
+def self.@@all 
   @@all
 end
 
