@@ -22,4 +22,8 @@ def self.count
   @@count
 end
 
+def @@all.self
+  @@all << self
+end
+
 end
