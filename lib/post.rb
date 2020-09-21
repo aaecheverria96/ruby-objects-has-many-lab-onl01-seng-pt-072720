@@ -4,8 +4,6 @@ class Post
 
   attr_accessor :author, :title, :post
 
-@@all = []
-
 @@count = 0
 
   def initialize(title)
@@ -23,8 +21,5 @@ def self.count
   @@count
 end
 
-def self.@@all
-  @@all
-end
 
 end
