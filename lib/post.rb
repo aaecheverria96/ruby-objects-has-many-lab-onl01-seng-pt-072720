@@ -4,14 +4,14 @@ class Post
 
   attr_accessor :author, :title, :post
 
-@@count = 0 
+@@count = 0
 
 @@all = []
 
   def initialize(title)
   @title = title
   @@count += 1
-  @@all << @posts 
+  @@all << @posts
   end
 
 def author=(author)
