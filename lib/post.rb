@@ -23,7 +23,7 @@ def self.count
 end
 
 def @@all.self
-  @@all << self
+  @@all
 end
 
 end
