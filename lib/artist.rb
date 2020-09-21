@@ -23,7 +23,7 @@ def self.song_count
 end
 
 def artist_name
-  song.name
+  artist.name
 end
 
 end
